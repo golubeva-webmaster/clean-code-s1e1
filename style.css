@@ -167,7 +167,7 @@ input,
 .editMode .item__task-input {
   display: inline-block;
   width: 224px;
-}
+} 
 
 .editMode .item__task-label {
   display: none;
