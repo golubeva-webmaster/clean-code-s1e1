@@ -76,8 +76,7 @@ input,
 }
 
 /* Heading */
-.subheader,
-.add__label {
+.subheader{
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -173,6 +172,6 @@ input,
   display: none;
 }
 
-.todo-list-maker{
+.main{
   text-align: left;
 }
