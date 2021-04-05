@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
 
-  <body>
+  <body class="page">
 
     <div class="info">
       <img src="./eisenhower-matrix.jpg">
@@ -23,47 +23,44 @@
         <label class="add__label" for="new-task">Add Item</label>
 
         <div class="add__wrapper">
-          <input class="task add__task" id="new-task" type="text">
-          <button class="add__btn">Add</button>
+          <input class="task add__task task" id="new-task" type="text">
+          <button class="btn add__btn">Add</button>
         </div>
 
       </p>
 
-      <h3>Todo</h3>
+      <h3 class="subheader">Todo</h3>
 
       <ul class="todo-list-maker__list list" id="incomplete">
         <li class="list__item item">
           <input class="item__checkbox" type="checkbox">
           <label class="item__task-label task">Pay Bills</label>
           <input class="item__task-input task" type="text">
-          <button class="item__btn item__btn_edit edit">Edit</button>
-          <button class="item__btn item__btn_delete delete">
+          <button class="btn item__btn item__btn_edit edit">Edit</button>
+          <button class="btn item__btn item__btn_delete delete">
             <img class="item__btn-img" src="./remove.svg">
           </button>
         </li>
         <li class="list__item item editMode">
           <input class="item__checkbox" type="checkbox">
           <label class="item__task-label task">Go Shopping</label>
-          <input class="item__task-input task" 
-            type="text" 
-            value="Go Shopping" 
-          >
-          <button class="item__btn item__btn_edit edit">Save</button>
-          <button class="item__btn item__btn_delete delete">
+          <input class="item__task-input task" type="text" value="Go Shopping">
+          <button class="btn item__btn item__btn_edit edit">Save</button>
+          <button class="btn item__btn item__btn_delete delete">
             <img class="item__btn-img" src="./remove.svg">
           </button>
         </li>
       </ul>
 
-      <h3>Completed</h3>
+      <h3 class="subheader">Completed</h3>
 
       <ul class="todo-list-maker__completed completed" id="completed-tasks">
         <li class="completed__item item">
           <input class="item__checkbox" type="checkbox" checked>
           <label class="item__task-label task">See the Doctor</label>
           <input class="item__task-input task"type="text">
-          <button class="item__btn item__btn_edit edit">Edit</button>
-          <button class="item__btn item__btn_delete delete">
+          <button class="btn item__btn item__btn_edit edit">Edit</button>
+          <button class="btn item__btn item__btn_delete delete">
             <img class="item__btn-img" src="./remove.svg">
           </button>
         </li>
