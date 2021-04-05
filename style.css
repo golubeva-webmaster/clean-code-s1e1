@@ -5,23 +5,23 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.information {
+.info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.information img {
+.info img {
   width: 100%;
 }
 
-.information .information__more {
+.info .info__more {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .information {
+  .info {
     text-align: center;
   }
 }
@@ -167,4 +167,8 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
   display: none;
+}
+
+.todo-list-maker{
+  text-align: left;
 }
